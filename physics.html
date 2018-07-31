@@ -15,7 +15,7 @@
             <a-cylinder static-body position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
             
             <!--Build one dynamic body - a soccer ball we can play with-->
-            <a-sphere id="theball" dynamic-body position="4 1.25 -5" radius="0.5" color="tomato" mass="1"></a-sphere>
+            <a-sphere dynamic-body position="4 1.25 -5" radius="0.5" color="tomato" mass="1"></a-sphere>
             
             <!--Make a player/camera entity, and give it the attributes we need it to have in order control camera with mouse, movement with WASD, and jump with spacebar-->
             <a-entity
@@ -26,5 +26,6 @@
                 position="1 4 2">
             </a-entity>
         </a-scene>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
